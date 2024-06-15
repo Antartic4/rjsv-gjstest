@@ -12,8 +12,9 @@ npm install
 # 2nd
 Create a ".env" in the project's root directory. 
 ```bash
-DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE_NAME>"
-NEXTAUTH_SECRET= PutAnythingComplicated
+DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE_NAME>" <- change
+NEXTAUTH_SECRET= 'PutAnythingComplicated' <- change
+NEXTAUTH_URL=https://rjsv-gjstest-production.up.railway.app <- change
 ```
 
 # 3rd
