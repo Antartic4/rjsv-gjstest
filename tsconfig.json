@@ -16,6 +16,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/screens.js",
+    "components/GrapesjsEditor.js",
+    "components/GrapesjsEditor.js",
+    "components/GrapesjsEditor.js"
+  ],
   "exclude": ["node_modules"]
 }
