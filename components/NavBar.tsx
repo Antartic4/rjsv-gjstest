@@ -16,7 +16,9 @@ const NavBar: React.FC = () => {
         </h1>
       </div>
       <div className="flex items-center">
-        <p className="mr-4 text-center font-bold">{session?.user?.email}</p>
+        <p className="mr-4 text-lg text-center font-bold">
+          {session?.user?.email}
+        </p>
         <button
           className="bg-red-500 px-3 py-1 rounded-lg"
           onClick={handleSignOut}
