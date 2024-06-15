@@ -7,8 +7,8 @@ if (!uri) {
   throw new Error('Please add your Mongo URI to .env.local');
 }
 
-let client;
-let clientPromise;
+let client: MongoClient | undefined;
+let clientPromise: Promise<MongoClient> | undefined;
 
 if (process.env.NODE_ENV === 'development') {
   // global instance
