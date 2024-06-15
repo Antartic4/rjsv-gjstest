@@ -1,13 +1,23 @@
-Hello, this is a platform for website building storage.
 
 ## Getting Started
 
+Hello, this is a platform for website building storage.
 First, run the development server:
 
+# 1st
 ```bash
 npm install
+```
 
-# then
+# 2nd
+Create a ".env" in the project's root directory. 
+```bash
+DATABASE_URL="mongodb+srv://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE_NAME>"
+NEXTAUTH_SECRET= PutAnythingComplicated
+```
+
+# 3rd
+```bash
 npm run dev
 # or
 npm run start
